@@ -1,0 +1,13 @@
+name: Portfolio CI
+
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 24f2004141@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
